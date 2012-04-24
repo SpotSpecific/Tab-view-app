@@ -1,0 +1,60 @@
+/* @override http://maker.spotspecific.com/assets/a7cae242-878a-43d9-b7f8-3bb12d8ecab2.css */
+
+/* Tab View App - ALTERNATIVE STYLESHEET*/
+
+/* Version 1.0 */
+
+/* This stylesheet may be used with the Spot Specific Tab View library app.
+
+It presents an alternative, blue-on-black view of the tab bar, and features an attractive drop shadow over the screen content.
+
+It does this by overriding some of the presets set in the default Tab View App stylesheet.
+
+For more information see: http://help.spotspecific.com/help/A_la_Carte:_Tab_view_app
+
+(C) 2012 Spot Specific Ltd. See the accompanying LICENCE file for more information on distribution.
+
+*/
+
+
+body, html {
+	background-color: #c6dde8 !important;
+}
+
+div#ss-tab-bar {
+	background-color: #000;
+	-webkit-box-shadow: -3px -3px 5px 0px rgba(60, 60, 60, 0.3);
+	box-shadow: -3px -3px 5px 0px rgba(60, 60, 60, 0.3);
+}
+
+div#ss-tab-bar a {
+	text-decoration: none !important;
+}
+
+div.ss-tab {
+	-webkit-border-radius: 10px !important;
+}
+
+
+div.ss-tab-inner {
+	border: 4px solid #000;
+}
+
+div#ss-tab-indicator {
+	background-image: linear-gradient(top, rgb(5,151,255) 10%, rgb(0,83,143) 78%);
+	background-image: -webkit-linear-gradient(top, rgb(5,151,255) 10%, rgb(0,83,143) 78%);
+	-webkit-border-top-left-radius: 10px !important;
+	-webkit-border-top-right-radius: 10px !important;
+}
+
+span.tabtext {
+	font-weight: bold;
+	top: 15px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	text-decoration: none;
+}
+
+span.tabtext a {
+	text-decoration: none;
+
+}

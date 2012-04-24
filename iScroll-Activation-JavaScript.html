@@ -1,0 +1,19 @@
+<script>
+    var ScrollTab1;
+    var ScrollTab2;
+    var ScrollTab3;
+    var ScrollTab4;
+    var ScrollTab5;
+
+	function prepareTabs() {
+		ScrollTab1 = new iScroll('ss-tab-1-content', { hScrollbar: false });
+		ScrollTab2 = new iScroll('ss-tab-2-content', { hScrollbar: false });
+		ScrollTab3 = new iScroll('ss-tab-3-content', { hScrollbar: false });
+		ScrollTab4 = new iScroll('ss-tab-4-content', { hScrollbar: false });
+		ScrollTab5 = new iScroll('ss-tab-5-content', { hScrollbar: false });
+		
+	}
+	document.addEventListener('deviceready', prepareTabs, false);
+	
+	
+</script>

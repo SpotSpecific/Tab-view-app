@@ -1,0 +1,184 @@
+/* @override http://maker.spotspecific.com/assets/541416c0-b44e-4068-846b-b1964937abae.css */
+
+/* Tab View App - STYLESHEET*/
+
+/* Version 1.0 */
+
+/* This stylesheet may be used with the Spot Specific Tab View library app.
+
+It presents an simple coloured tab controller with embedded scrolling view components.
+
+For more information see: http://help.spotspecific.com/help/A_la_Carte:_Tab_view_app
+
+(C) 2012 Spot Specific Ltd. See the accompanying LICENCE file for more information on distribution.
+
+*/
+
+* {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	font-family: "Helvetica Neue", Arial, DroidSans, Helvetica, Geneva, sans-serif;
+}
+
+body, html {
+	background-color: white !important;
+}
+
+
+h1 {
+	font-size: 24px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+h2 {
+	font-size: 18px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+
+
+a {
+	color: white;
+}
+
+/* tab bar */
+
+div#ss-tab-bar {
+	background-color: #EB9D18;
+	height: 64px;
+	width: 320px;
+}
+
+div.ss-tab {
+	float: left;
+	width: 64px;
+	height: 64px;
+	text-align: center;
+
+}
+
+div.ss-tab-inner {
+	width: 56px;
+	height: 56px;
+	color: white;
+	font-family: "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	border: 4px solid #4D4D4F;
+}
+
+div.ss-tab-inner img.ss-tab-96 {
+	width: 56px;
+	height: 48px;
+	padding-top: 4px;
+}
+
+div.ss-tab-inner img.ss-tab-112 {
+	width: 56px;
+	height: 56px;
+	opacity: 0.6;
+}
+
+div#ss-tab-indicator {
+	position: absolute;
+	-webkit-transition: left 0.5s ease-in-out;
+	left: 0px;
+	width: 56px;
+	height: 56px;
+	background-color: #E6721E;
+	/*opacity: 0.5;*/
+	top: 4px;
+	margin-left: 4px;
+}
+
+
+div.ss-tab-inner span {
+
+	z-index: 20000;
+	position: relative;
+}
+
+/* tab content */
+
+/* Tab content */
+
+div#tab-content-outer-container {
+	width: 320px;
+	overflow: hidden;
+		height:  416px;
+}
+
+div#tab-content-container {
+	left: 0;
+	width: 1600px;
+	position: relative;
+	-webkit-transition: left 0.5s ease-in-out;
+
+	height:  416px;
+}
+
+div.tab-inner-container {
+	width:  320px;
+	float: left;
+	height: 416px;
+}
+
+
+div.ss-tab-scroll-inner {
+	margin-right: 16px;
+	padding-left: 16px;
+}
+
+
+
+
+
+/* Miscellaneous fixes */
+
+/* Micro-clearfix */
+.cf:before,
+.cf:after {
+    content:"";
+    display:table;
+}
+
+.cf:after {
+    clear:both;
+}
+
+
+
+
+
+/* iscroll tweaks */
+
+/* firstly, individually set the left properties on the scroll bar 'tracks' to bring them inside the floated container elements rather than being positioned absolutely inside the container. There's a 320 pixel difference between each value, in keeping with the tabs' width. */
+#ss-tab-1-content div:last-child {
+	left: 310px;
+	right: auto !important;
+}
+
+#ss-tab-2-content div:last-child {
+	left: 630px;
+	right: auto !important;
+}
+
+#ss-tab-3-content div:last-child {
+	left: 950px;
+	right: auto !important;
+}
+
+#ss-tab-4-content div:last-child {
+	left: 1270px;
+	right: auto !important;
+}
+
+#ss-tab-5-content div:last-child {
+	left: 1590px;
+	right: auto !important;
+}
+
+/* and pull the scroll bar handles into their container 'tracks' */
+#ss-tab-1-content div:last-child div, #ss-tab-2-content div:last-child div, #ss-tab-3-content div:last-child div, #ss-tab-4-content div:last-child div, #ss-tab-5-content div:last-child div {
+	position: relative !important;
+	left: 0 !important;
+}
