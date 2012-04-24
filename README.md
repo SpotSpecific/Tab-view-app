@@ -8,6 +8,9 @@ The 'Tab View' app is a simple demonstration of how to build a flexible user int
 
 Apps built using this layout as a starting point can be output to Android and iOS.
 
+
+![Screenshot of the default Tab View app look-and-feel](https://github.com/SpotSpecific/Tab-view-app/raw/master/Tab-view-app-preview-standard-style.png)
+
 How do I use the code?
 ------------
 The code here is intended to be used along with the corresponding 'Library app', which is available to all Spot Specific customers. This app can be cloned into a user account and used as a starting point for later development.
