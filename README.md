@@ -10,6 +10,7 @@ Apps built using this layout as a starting point can be output to Android and iO
 
 
 ![Screenshot of the default Tab View app look-and-feel](https://github.com/SpotSpecific/Tab-view-app/raw/master/Tab-view-app-preview-standard-style.png)
+![Screenshot of the alternative Tab View app look-and-feel](https://github.com/SpotSpecific/Tab-view-app/raw/master/Tab-view-app-preview-alternative-style.png)
 
 How do I use the code?
 ------------
